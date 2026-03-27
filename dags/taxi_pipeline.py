@@ -33,3 +33,5 @@ with DAG(
         task_id="aggregate_data",
         python_callable=aggregate_data
     )
+
+run_etl
