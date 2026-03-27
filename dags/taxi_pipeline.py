@@ -34,4 +34,3 @@ with DAG(
         python_callable=aggregate_data
     )
 
-run_etl

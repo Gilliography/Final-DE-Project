@@ -2494,3 +2494,17 @@ Traceback (most recent call last):
 NameError: name 'run_etl' is not defined
 [2026-03-27T09:10:01.846+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/taxi_pipeline.py
 [2026-03-27T09:10:01.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/taxi_pipeline.py took 0.027 seconds
+[2026-03-27T12:38:35.272+0000] {processor.py:161} INFO - Started process (PID=160) to work on /opt/airflow/dags/taxi_pipeline.py
+[2026-03-27T12:38:35.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/taxi_pipeline.py for tasks to queue
+[2026-03-27T12:38:35.276+0000] {logging_mixin.py:188} INFO - [2026-03-27T12:38:35.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_pipeline.py
+[2026-03-27T12:38:35.312+0000] {processor.py:840} INFO - DAG(s) 'taxi_pipeline' retrieved from /opt/airflow/dags/taxi_pipeline.py
+[2026-03-27T12:38:35.434+0000] {logging_mixin.py:188} INFO - [2026-03-27T12:38:35.434+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T12:38:35.500+0000] {logging_mixin.py:188} INFO - [2026-03-27T12:38:35.498+0000] {dag.py:3823} INFO - Setting next_dagrun for taxi_pipeline to 2026-03-27 12:00:00+00:00, run_after=2026-03-27 13:00:00+00:00
+[2026-03-27T12:38:35.534+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/taxi_pipeline.py took 0.265 seconds
+[2026-03-27T12:38:46.479+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/taxi_pipeline.py
+[2026-03-27T12:38:46.480+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/taxi_pipeline.py for tasks to queue
+[2026-03-27T12:38:46.481+0000] {logging_mixin.py:188} INFO - [2026-03-27T12:38:46.480+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_pipeline.py
+[2026-03-27T12:38:46.501+0000] {processor.py:840} INFO - DAG(s) 'taxi_pipeline' retrieved from /opt/airflow/dags/taxi_pipeline.py
+[2026-03-27T12:38:46.519+0000] {logging_mixin.py:188} INFO - [2026-03-27T12:38:46.518+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T12:38:46.551+0000] {logging_mixin.py:188} INFO - [2026-03-27T12:38:46.550+0000] {dag.py:3823} INFO - Setting next_dagrun for taxi_pipeline to 2026-03-27 12:00:00+00:00, run_after=2026-03-27 13:00:00+00:00
+[2026-03-27T12:38:46.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/taxi_pipeline.py took 0.098 seconds
